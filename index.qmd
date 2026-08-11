@@ -1,106 +1,285 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Robert Amevor, MS, GStat"
+description-meta: "Robert Amevor — PhD Student in Biostatistics at the University of South Carolina"
+image: "files/images/mypic.jpg"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
   id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 58%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
+      text: Email
+      href: mailto:ramevor@email.sc.edu
+    - icon: person-badge
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=bs2MgcwAAAAJ&hl=en
+      target: _blank
+    - icon: journal-text
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Robert-Amevor
+      target: _blank
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/robert-amevor-msc-gstat-81556b1b7/
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
+    - icon: github
+      text: GitHub
+      href: https://github.com/ramevor
       target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
 ---
 
-:::{#hero-heading}
+:::{#hero-heading .hero-copy}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+## PhD Student in Biostatistics
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+I am **Robert Amevor**, a PhD student in Biostatistics at the **University of South Carolina's Arnold School of Public Health**.
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages.  
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
+My research focuses on **adaptive clinical trial design, Bayesian inference, survival analysis, Phase I dose-finding, and statistical genomics**, with applications in **cancer and neurodegenerative disease**.
 
-## Experience
+I am particularly interested in developing statistical methods that improve the design, safety, and efficiency of clinical research while supporting reproducible and data-driven biomedical science.
 
-- Researcher, Univerisity
+[View my CV →](/files/Robert_Amevor_CV.pdf){.btn .btn-primary .me-2}
+[Explore my research →](projects.qmd){.btn .btn-outline-primary}
+
+:::
+
+## Research Focus
+
+::: {.research-grid}
+
+::: {.research-card}
+### Adaptive Clinical Trials
+
+Developing statistical methodology for Phase I clinical trials, including adaptive extensions of the **Time-to-Event Continual Reassessment Method (TITE-CRM)**.
+
+:::
+
+::: {.research-card}
+### Statistical Genomics
+
+Using RNA-seq and longitudinal biomedical data to identify molecular signatures associated with disease progression.
+
+:::
+
+::: {.research-card}
+### Cancer Biostatistics
+
+Applying survival analysis, Bayesian methods, and predictive modeling to cancer outcomes and precision medicine.
+
+:::
+
+::: {.research-card}
+### Bayesian Methods
+
+Developing and applying Bayesian approaches for clinical trials, biomedical research, and complex longitudinal data.
+
+:::
+
+:::
+
+## Current Highlights
+
+::: {.callout-note}
+### Adaptive Clinical Trial Research
+
+Developing an adaptive weighting extension to the **Time-to-Event Continual Reassessment Method (TITE-CRM)** for Phase I oncology trials. The manuscript is currently under review at *Statistics in Medicine*.
+:::
+
+::: {.callout-tip}
+### SIP 2026
+
+Scheduled to present the same research at **Statistics in Pharmaceuticals (SIP) 2026** on August 19, 2026.
+:::
+
+## Latest News
+
+::: {.callout-tip}
+
+### Presented at JSM 2026
+
+I presented my research
+
+**Adaptive Weighting for the Time-to-Event Continual Reassessment Method**
+
+at the **2026 Joint Statistical Meetings (JSM)** in Boston.
+
+👉 [Read the conference story →](/posts/jsm-2026/)
+
+:::
+
+## Selected Achievements
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+### ASA GStat
+
+Graduate Statistician accreditation, American Statistical Association.
+
+### ASA Early Career Travel Award
+
+Awarded for JSM 2026 participation.
+
+### SIP2026 Travel Scholarship
+
+Travel support for Statistics in Pharmaceuticals 2026.
+
+:::
+
+::: {.column width="50%"}
+
+### Arnold School Fellowship
+
+University of South Carolina.
+
+### NISS Writing Workshop
+
+Selected participant and Certificate of Completion.
+
+### JSM 2026
+
+Poster presentation and Continuing Education Course Monitor.
+
+:::
+
+:::
 
 ## Education
 
-- PhD, Univerisity
+::: {.columns}
+
+::: {.column width="33%"}
+
+### PhD in Biostatistics
+
+**University of South Carolina**  
+2025–Present
 
 :::
 
+::: {.column width="33%"}
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+### MSc in Statistics
 
-:::{#recent-posts}
+**University of New Mexico**  
+2023–2025
+
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+::: {.column width="33%"}
+
+### BSc in Statistics
+
+**KNUST**  
+First Class Honours · 2018–2022
+
+:::
+
+:::
+
+## Professional Experience
+
+My professional experience spans **adaptive clinical trial methodology, statistical consulting, collaborative biomedical research, university instruction, and mentoring**. I enjoy working at the interface of statistics, medicine, and data science to develop practical quantitative solutions for clinical and biomedical research.
+
+[View my teaching experience →](/teaching.qmd)
+
+
+
+## Featured Work
+
+::: {.columns}
+
+::: {.column width="25%"}
+
+### Research
+
+Methodological and applied research in adaptive clinical trials, Bayesian statistics, survival analysis, and statistical genomics.
+
+[Explore research →](/research.qmd)
+
+:::
+
+::: {.column width="25%"}
+
+### Publications
+
+Peer-reviewed papers, manuscripts under review, preprints, and conference proceedings.
+
+[View publications →](/publications.qmd)
+
+:::
+
+::: {.column width="25%"}
+
+### Projects
+
+Selected biomedical and statistical projects spanning oncology, genomics, survival analysis, and clinical trials.
+
+[View projects →](/projects.qmd)
+
+:::
+
+::: {.column width="25%"}
+
+### Professional Service
+
+Scientific reviewing, conference service, mentoring, outreach, and professional leadership.
+
+[View service →](/outreach.qmd)
+
+:::
+
+:::
+
+## Connect
+
+I welcome opportunities for **research collaboration, scientific exchange, mentoring, and professional engagement.**
+
+::: {.columns}
+
+::: {.column width="20%"}
+
+**Email**
+
+[Contact me →](mailto:ramevor@email.sc.edu)
+
+:::
+
+::: {.column width="20%"}
+
+**Google Scholar**
+
+[View profile →](https://scholar.google.com/citations?user=bs2MgcwAAAAJ&hl=en)
+
+:::
+
+::: {.column width="20%"}
+
+**ResearchGate**
+
+[View profile →](https://www.researchgate.net/profile/Robert-Amevor)
+
+:::
+
+::: {.column width="20%"}
+
+**LinkedIn**
+
+[Connect →](https://www.linkedin.com/in/robert-amevor-msc-gstat-81556b1b7/)
+
+:::
+
+::: {.column width="20%"}
+
+**GitHub**
+
+[View code →](https://github.com/ramevor)
+
+:::
+
+:::

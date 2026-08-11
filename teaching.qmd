@@ -1,67 +1,164 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
+subtitle: "Teaching statistics, statistical computing, and mentoring students"
 title-block-banner: false
+page-layout: full
 ---
 
+## Teaching Philosophy
 
-## Class 1
+I am passionate about helping students develop statistical thinking and the confidence to apply quantitative methods to real-world problems. My teaching emphasizes conceptual understanding, reproducible data analysis, effective communication, and the practical application of statistics in biomedical and health research.
 
-::: {.grid}
+I particularly enjoy helping students move from a statistical question to a defensible analysis using **R** and modern statistical tools.
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
+---
 
-:::
+## Teaching Experience
 
-::: {.g-col-12 .g-col-md-10}
+### Instructor of Record — Introduction to Statistics (MATH 1350)
 
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+**Department of Mathematics and Statistics, University of New Mexico**
 
-Class 1 introduction.
+**Semesters:** Fall 2023 · Spring 2024 · Fall 2024 · Spring 2025 · Summer 2025
 
-:::
+As instructor of record, I independently taught five semesters of Introduction to Statistics, designing course materials, assessing student learning, and providing individualized academic support.
 
-:::
+The course covered:
 
+- Data collection
+- Exploratory data analysis
+- Probability
+- Statistical inference
+- Applied statistical reasoning using real-world examples
 
-## Class 2
+---
 
-::: {.grid}
+### Applied Statistical Computing
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
+I incorporated **R-based data analysis** into statistics instruction, helping students translate statistical concepts into reproducible analytical workflows.
 
-:::
+::: {.columns}
 
-::: {.g-col-12 .g-col-md-10}
+::: {.column width="50%"}
 
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+#### Statistical Thinking
 
-Class 2 introduction.
-
-:::
-
-:::
-
-
-## Class 3
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
+- Connecting statistical methods to real research questions
+- Interpreting statistical results
+- Understanding assumptions and limitations
+- Communicating statistical findings clearly
 
 :::
 
-::: {.g-col-12 .g-col-md-10}
+::: {.column width="50%"}
 
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
+#### Statistical Computing
 
-Class 3 introduction. 
+- R programming
+- Data visualization
+- Reproducible workflows
+- Applied statistical modeling
 
 :::
 
 :::
 
+---
 
+## Tutoring & Mentoring
+
+### STEM Tutor
+
+**Center for Teaching and Learning, University of New Mexico**  
+*January 2025 – May 2025*
+
+Provided individual and group tutoring in mathematics and statistics, including probability, regression, and applied statistics.
+
+Developed personalized explanations and problem-solving strategies to support students with diverse quantitative backgrounds.
+
+### Research & Project Assistant
+
+**African American Student Services, University of New Mexico**  
+*August 2024 – May 2025*
+
+Supported a mathematics and statistics initiative through quantitative instruction, R training, mentoring, and research support aimed at improving student success among underrepresented students.
+
+---
+
+## Graduate Teaching Scholar
+
+**Center for Teaching and Learning, University of New Mexico**  
+*August 2024 – June 2025*
+
+Completed professional development in evidence-based teaching through the Graduate Teaching Scholar Program.
+
+Activities included:
+
+- Teaching seminars
+- Teaching consultations
+- Peer observations
+- Classroom observations
+- Scholarship of Teaching and Learning (SoTL) project
+
+Designed and implemented a SoTL classroom intervention and presented the project during a campus-wide teaching showcase.
+
+---
+
+## Teaching & Research Assistant
+
+**University of Energy and Natural Resources, Ghana**  
+*2022 – 2023*
+
+Assisted with undergraduate instruction in:
+
+- Statistics
+- Engineering Mathematics
+- Differential Equations
+
+Also supervised and mentored final-year students on undergraduate research projects, providing guidance in research methodology, statistical analysis, and academic writing.
+
+---
+
+## Teaching Interests
+
+::: {.columns}
+
+::: {.column width="33%"}
+
+### Introductory Statistics
+
+Building statistical reasoning and quantitative literacy.
+
+:::
+
+::: {.column width="33%"}
+
+### Statistical Computing
+
+Teaching reproducible statistical analysis using **R**.
+
+:::
+
+::: {.column width="33%"}
+
+### Biostatistics
+
+Connecting statistical methodology to biomedical and health research.
+
+:::
+
+:::
+
+---
+
+## Mentoring & Inclusive Teaching
+
+I am committed to creating supportive learning environments that encourage curiosity, confidence, and inclusive participation in quantitative disciplines. My mentoring experience includes working with students from diverse academic backgrounds and supporting underrepresented students in mathematics, statistics, and research.
+
+---
+
+## Professional Development
+
+My teaching development includes formal training through the **Graduate Teaching Scholar Program** at the University of New Mexico and participation in the **NSF-supported Teaching Statistical Thinking Workshop** at Curry College.
+
+These experiences strengthened my interest in evidence-based teaching, statistical reasoning, and effective communication of quantitative concepts.

@@ -2,112 +2,162 @@ project:
   type: website
   output-dir: docs
 
-# Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+# ============================================================
+# SITE METADATA
+# ============================================================
+
+description-meta: "Robert Amevor — PhD Student in Biostatistics at the University of South Carolina"
+author-meta: "Robert Amevor"
+
+# ============================================================
+# WEBSITE
+# ============================================================
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
- 
-  navbar:
-    background: light  # You can change the background color here
+  title: "Robert Amevor"
+  image: "files/images/mypic1.jpg"
+  description: "Academic website of Robert Amevor, PhD student in Biostatistics at the University of South Carolina."
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
-#        href: index.qmd
-      - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
+  # ----------------------------------------------------------
+  # NAVIGATION
+  # ----------------------------------------------------------
+
+  navbar:
+    background: light
+
+    left:
+
+      - text: Home
+        href: index.qmd
+
       - text: Research
         menu:
-          - text: List of Publications
+          - text: Publications
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+          - text: Projects
+            href: projects.qmd
 
-    right: 
+      - text: Teaching
+        href: teaching.qmd
+
+      - text: News
+        href: posts.qmd
+
+      - text: Contact
+        href: contact.qmd
+
+    right:
+
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/Robert_Amevor_CV.pdf
+        target: _blank
+
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/ramevor
         target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
+
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=bs2MgcwAAAAJ&hl=en
         target: _blank
-  
+
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Robert-Amevor
+        target: _blank
+
+      - icon: linkedin
+        href: https://www.linkedin.com/in/robert-amevor-msc-gstat-81556b1b7/
+        target: _blank
+
   page-navigation: true
-  
-  page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
+
+  # ----------------------------------------------------------
+  # FOOTER
+  # ----------------------------------------------------------
+
+  page-footer:
+    left: "© Robert Amevor <script>document.write(new Date().getFullYear())</script>"
+
+    center: "Academic website of Robert Amevor"
+
+    right:
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/ramevor
         target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
+
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=bs2MgcwAAAAJ&hl=en
         target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
-  
+
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Robert-Amevor
+        target: _blank
+
+  # ----------------------------------------------------------
+  # SEARCH
+  # ----------------------------------------------------------
+
   search:
     location: navbar
     type: textbox
-  
+
   reader-mode: true
 
   draft-mode: unlinked
-  
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
-#  repo-actions: [edit, issue, source]
-  
-  open-graph: true
-  
-  twitter-card: true 
-#  card-style: summary      
-  
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
-  
-  google-analytics:
-    tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
 
-bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
+  # ----------------------------------------------------------
+  # GITHUB REPOSITORY
+  # ----------------------------------------------------------
+
+  repo-url: https://github.com/ramevor/RobertAmevor.github.io
+
+  # ----------------------------------------------------------
+  # SOCIAL / SHARING METADATA
+  # ----------------------------------------------------------
+
+  open-graph: true
+
+  twitter-card: true
+
+  # Assuming GitHub Pages is served at ramevor.github.io
+  site-url: "https://ramevor.github.io"
+
+# ============================================================
+# BIBLIOGRAPHY
+# ============================================================
+
+bibliography: references.bib
+
+# ============================================================
+# HTML FORMAT
+# ============================================================
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-    footnotes-hover: true
-    code-copy: true
-    code-link: true
-    code-overflow: wrap
-    fig-align: center
-    link-external-icon: false
-    link-external-newwindow: true
-    email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
-    include-in-header: "files/includes/_academic.qmd"
 
+    theme: cosmo
+
+    css:
+      - styles.css
+      - custom.css
+
+    toc: true
+
+    footnotes-hover: true
+
+    code-copy: true
+
+    code-link: true
+
+    code-overflow: wrap
+
+    fig-align: center
+
+    link-external-icon: false
+
+    link-external-newwindow: true
+
+    email-obfuscation: javascript
+
+    link-external-filter: '^(?:http:|https:)\/\/ramevor\.github\.io'
+
+    include-in-header: "files/includes/_academic.qmd"

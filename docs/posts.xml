@@ -5,149 +5,79 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Quarto Academic</title>
-<link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
-<atom:link href="https://drganghe.github.io/quarto-academic-website-template/posts.xml" rel="self" type="application/rss+xml"/>
-<description>Quarto Academic Website Template adapted by Dr. Gang He</description>
+<title>Robert Amevor</title>
+<link>https://ramevor.github.io/posts.html</link>
+<atom:link href="https://ramevor.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>Academic website of Robert Amevor, PhD student in Biostatistics at the University of South Carolina.</description>
 <image>
-<url>https://quarto.org/quarto.png</url>
-<title>Quarto Academic</title>
-<link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
+<url>https://ramevor.github.io/files/images/mypic1.jpg</url>
+<title>Robert Amevor</title>
+<link>https://ramevor.github.io/posts.html</link>
 </image>
-<generator>quarto-1.7.22</generator>
-<lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 05 Aug 2026 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Quarto Academic Website Examples and Tips</title>
-  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
-  <description>Examples and tips for Quarto Academic Website</description>
-  <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Tue, 15 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Event item</title>
-  <dc:creator>Event </dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</link>
+  <title>Presented Research at JSM 2026</title>
+  <link>https://ramevor.github.io/posts/jsm-2026/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<section id="joint-statistical-meetings-2026" class="level1">
+<h1>Joint Statistical Meetings 2026</h1>
+<p>I had the opportunity to present my research at the <strong>2026 Joint Statistical Meetings (JSM)</strong> in Boston, Massachusetts.</p>
+<p>This conference brought together statisticians from academia, industry, and government to discuss recent advances in statistics and biostatistics.</p>
+<p><img src="https://ramevor.github.io/posts/jsm-2026/jsm-sign.jpg" class="img-fluid"></p>
+<section id="poster-presentation" class="level2">
+<h2 class="anchored" data-anchor-id="poster-presentation">Poster Presentation</h2>
+<p>I presented the poster</p>
+<blockquote class="blockquote">
+<p><strong>Adaptive Weighting for Time-to-Event Continual Reassessment Method: Improving Safety in Phase I Dose-Finding Trials</strong></p>
+</blockquote>
+<p>The work introduces an adaptive predictive weighting approach that reduces overdosing while maintaining accurate maximum tolerated dose (MTD) selection.</p>
+<section id="key-findings" class="level3">
+<h3 class="anchored" data-anchor-id="key-findings">Key Findings</h3>
+<ul>
+<li>40.6% reduction in overdosing</li>
+<li>Maintained MTD selection accuracy</li>
+<li>Drop-in replacement for the standard TITE-CRM</li>
+<li>Applicable to Phase I oncology trials</li>
+</ul>
+<p><img src="https://ramevor.github.io/posts/jsm-2026/jsm-poster.jpg" class="img-fluid"></p>
+<p>Standing beside my poster during the JSM poster session.</p>
+</section>
+</section>
+<section id="research-impact" class="level2">
+<h2 class="anchored" data-anchor-id="research-impact">Research Impact</h2>
+<p>This work addresses one of the major challenges in Phase I oncology trials: delayed toxicity.</p>
+<p>Instead of relying on fixed linear follow-up weights, the proposed method uses adaptive predictive weights based on observed toxicity timing, improving patient safety while preserving trial efficiency.</p>
+<p>The manuscript is currently under review at <em>Statistics in Medicine</em>.</p>
+</section>
+<section id="related-research" class="level2">
+<h2 class="anchored" data-anchor-id="related-research">Related Research</h2>
+<ul>
+<li><a href="../../projects/adaptive-tite-crm.html">Adaptive TITE-CRM Project</a></li>
+</ul>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
+<p>The same research will be presented at the</p>
+<p><strong>Statistics in Pharmaceuticals (SIP) 2026</strong></p>
+<p>conference later this month.</p>
+<p>I look forward to discussing the methodology with researchers working in adaptive clinical trial design and Bayesian biostatistics.</p>
 
 
+</section>
+</section>
 
  ]]></description>
-  <category>event</category>
+  <category>news</category>
+  <category>conference</category>
   <category>presentation</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</guid>
-  <pubDate>Tue, 03 Sep 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" medium="image"/>
-</item>
-<item>
-  <title>News item</title>
-  <dc:creator>News </dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>About the news</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</guid>
-  <pubDate>Mon, 24 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.JPG" medium="image"/>
-</item>
-<item>
-  <title>Can quantum-mechanical description of physical reality be considered complete?</title>
-  <dc:creator>Albert Einstein</dc:creator>
-  <dc:creator>Boris Podolsky</dc:creator>
-  <dc:creator>Nathan Rosen</dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<!--Include academic icons or bottons-->
-<!-- 
-Load Academicons v1: https://jpswalsh.github.io/academicons/
--->
-<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
-<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
-<!---
-The following code are needed to show dimension citation and altmetrics.
-https://api.altmetric.com/embeds.html
-https://badge.dimensions.ai/
---->
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<p>Published <a href="https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777">paper</a></p>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
-
-<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{einstein1935,
-  author = {Einstein, Albert and Podolsky, Boris and Rosen, Nathan},
-  title = {Can Quantum-Mechanical Description of Physical Reality Be
-    Considered Complete?},
-  journal = {Physical Review},
-  volume = {47},
-  number = {7938},
-  pages = {777-80},
-  date = {1935-05-15},
-  url = {https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777},
-  doi = {10.1103/PhysRev.47.777},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-einstein1935" class="csl-entry quarto-appendix-citeas">
-Einstein, Albert, Boris Podolsky, and Nathan Rosen. 1935. <span>“Can
-Quantum-Mechanical Description of Physical Reality Be Considered
-Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https://doi.org/10.1103/PhysRev.47.777">https://doi.org/10.1103/PhysRev.47.777</a>.
-</div></div></section></div> ]]></description>
-  <category>paper</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</guid>
-  <pubDate>Wed, 15 May 1935 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://ramevor.github.io/posts/jsm-2026/</guid>
+  <pubDate>Wed, 05 Aug 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://ramevor.github.io/posts/jsm-2026/jsm-sign.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

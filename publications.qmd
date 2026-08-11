@@ -1,34 +1,242 @@
 ---
 title: "Publications"
-description-meta: "Information, pdfs, and social metrics of papers"
-#page-layout: full
-#back-to-top-navigation: true
-title-block-banner: false
-css: custom.css
+subtitle: "Selected scholarly work and research outputs"
+page-layout: full
 ---
 
+# Publications
 
-<!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
+My scholarly work spans biostatistical methodology, cancer research,
+survival analysis, statistical genomics, and applied statistical modeling.
 
-Notes: \* corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ESI [Highly Cited Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html) (top 1%); ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} ESI [Hot Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html) (top 0.1%) 
+## Peer-Reviewed Articles
 
-Total citations as of January 2025:
+::: {.publication-card}
 
-- [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)   
-- [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377) 
+### Evaluation of AI-Based Predictive Models for Early Cancer Detection
 
-## Selected Work
+**Amevor, R.**, Mantey, J. K., & Nketiah, T. A. (2026)
 
-Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
+*Journal of Innovative Science*, 2(1).
 
+This work examines statistical considerations and validation methods for
+AI-based predictive models for early cancer detection.
 
-<center><hr style="width:50%"></center>
+[DOI →](https://doi.org/10.5281/zenodo.18634390)
 
-Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. *American Journal of Physics*, 33(5), 367. [[pdf](https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf)] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
+:::
 
+::: {.publication-card}
 
+### Equitable AI-Biostatistical Frameworks for Bias Mitigation in Cancer Prediction and Outcome Analytics
 
-<!--Include social share buttons-->
+**Amevor, R.** (2026)
 
-{{< include /files/includes/_socialshare.qmd >}}
+*JEPRA International Journal of Research and Development*, 11(3).
+
+A narrative review focused on equitable statistical and biostatistical
+frameworks for addressing bias in cancer prediction and outcome analytics.
+
+[DOI →](https://doi.org/10.36713/epra26770)
+
+:::
+
+## Manuscripts Under Review
+
+::: {.publication-card}
+
+### Adaptive Weighting for Time-to-Event Continual Reassessment Method
+
+**Amevor, R.**, Kubuafor, E., & Baidoo, D. (2026)
+
+*Improving Safety in Phase I Dose-Finding Through Data-Driven Delay Distribution Estimation.*
+
+Under review at *Statistics in Medicine*. Submitted January 23, 2026.
+
+**Research focus:** Adaptive clinical trials · Phase I dose-finding ·
+Delayed toxicity · TITE-CRM
+
+[View project →](adaptive-tite-crm.qmd)  
+[View arXiv preprint →](https://doi.org/10.48550/arXiv.2602.19012)
+
+:::
+
+## In Progress
+
+::: {.publication-card}
+
+### A Transcriptomic Signature of Parkinson's Disease Progression: Evidence from the PPMI Study
+
+**Amevor, R.**, McLain, A. C., Zhang, J., Saha, E., & Ghosal, R. (2026)
+
+Manuscript in progress.
+
+**Research focus:** RNA-seq · Statistical genomics · Parkinson's disease
+progression · Longitudinal biomedical data
+
+:::
+
+## Preprints
+
+::: {.publication-card}
+
+### Integrative Prognostic Modeling of Breast Cancer Survival with Gene Expression and Clinical Data
+
+**Amevor, R.**, Kubuafor, E., Baidoo, D., et al. (2025)
+
+*arXiv:2508.16740*
+
+[View preprint →](https://doi.org/10.48550/arXiv.2508.16740)
+
+:::
+
+::: {.publication-card}
+
+### Time-Varying Hazard Patterns and Co-Mutation Profiles of KRAS G12C and G12D in Real-World NSCLC
+
+**Amevor, R.**, Kubuafor, E., & Baidoo, D. (2026)
+
+*arXiv:2602.19295*
+
+[View preprint →](https://doi.org/10.48550/arXiv.2602.19295)
+
+:::
+
+::: {.publication-card}
+
+### Bayesian Hierarchical Methods for Surveillance of Cervical Dystonia Treatments
+
+Baidoo, D., Kubuafor, E., **Amevor, R.**, et al. (2025)
+
+*arXiv:2508.15762*
+
+[View preprint →](https://arxiv.org/abs/2508.15762)
+
+:::
+
+::: {.publication-card}
+
+### Latent Spatial Heterogeneity in US Cancer Mortality
+
+Kubuafor, E., Baidoo, D., **Amevor, R.**, et al. (2025)
+
+*A Multi-Site Clustering and Spatial Autocorrelation Analysis.*
+
+*arXiv:2508.12188*
+
+[View preprint →](https://arxiv.org/abs/2508.12188)
+
+:::
+
+::: {.publication-card}
+
+### Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the US
+
+Kubuafor, E., Baidoo, D., **Amevor, R.**, et al. (2025)
+
+*arXiv:2508.16052*
+
+[View preprint →](https://doi.org/10.48550/arXiv.2508.16052)
+
+:::
+
+::: {.publication-card}
+
+### Comparing Malaria Trends in the Comoros Islands
+
+Baidoo, D., Kubuafor, E., **Amevor, R.**, et al. (2025)
+
+*ARIMA Modeling and Retrospective Analysis.*
+
+*arXiv:2508.16018*
+
+[View preprint →](https://doi.org/10.48550/arXiv.2508.16018)
+
+:::
+
+## Conference Proceedings
+
+::: {.publication-card}
+
+### Elucidating Community-Level Determinants of Adolescent Obesity in New Mexico
+
+Okeke, O., Baidoo, D., **Amevor, R.**, et al. (2024)
+
+*A Bayesian Belief Network Approach.*
+
+*Proceedings of EMCEI*, Springer, Marrakech, Morocco.
+
+:::
+
+::: {.publication-card}
+
+### Modelling Groundwater Potential and Suitability for Irrigation in New Mexico
+
+Okeke, O., Nwaogu, C., **Amevor, R.**, et al. (2023)
+
+*Proceedings of MedGU Annual Meeting*, Springer, Istanbul, Turkey.
+
+:::
+
+::: {.publication-card}
+
+### Modelling Spatial Distribution of West Nile Virus in New Mexico
+
+Okeke, O., **Amevor, R.**, et al. (2024)
+
+*Proceedings of EMCEI*, Springer, Marrakech, Morocco.
+
+:::
+
+::: {.publication-card}
+
+### Spatial Dependence and Determinants of Smoking Behavior in New Mexico School Districts
+
+Okeke, O. J., **Amevor, R.**, et al. (2025)
+
+*Proceedings of MedLIFE Annual Meeting*, Springer, Naples, Italy.
+
+*Under review.*
+
+:::
+
+## Research Outputs & Presentations
+
+Some of my research is also disseminated through conference presentations,
+posters, workshops, and collaborative research activities.
+
+### Featured Research
+
+**Adaptive Weighting for Time-to-Event Continual Reassessment Method**
+
+Poster presented at the **2026 Joint Statistical Meetings (JSM)** in Boston,
+with an upcoming presentation at the **Statistics in Pharmaceuticals (SIP)
+2026** conference.
+
+[View the project →](adaptive-tite-crm.qmd)
+
+---
+
+## Profiles
+
+For citation metrics, indexed publications, and additional research outputs:
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+### Google Scholar
+
+[View Google Scholar profile →](https://scholar.google.com/citations?user=bs2MgcwAAAAJ&hl=en)
+
+:::
+
+::: {.column width="50%"}
+
+### ResearchGate
+
+[View ResearchGate profile →](https://www.researchgate.net/profile/Robert-Amevor)
+
+:::
+
+:::

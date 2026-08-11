@@ -1,4 +1,222 @@
-/*Inline block for altmetric badges, will keep the badges in the same line*/
-span.__dimensions_badge_embed__, div.altmetric-embed {
-  display: inline-block;
+/* ============================================================
+   Robert Amevor - personal academic website
+   Homepage-first styling; safe to use as the site's custom CSS.
+   ============================================================ */
+
+:root {
+  --ra-ink: #252a32;
+  --ra-muted: #5f6670;
+  --ra-line: #e6e9ed;
+  --ra-accent: #1d4ed8;
+  --ra-accent-soft: #eff6ff;
+  --ra-card: #ffffff;
+  --ra-background: #fbfcfe;
+  --ra-radius: 14px;
+}
+
+body {
+  color: var(--ra-ink);
+  background: var(--ra-background);
+}
+
+.navbar {
+  border-bottom: 1px solid var(--ra-line);
+  box-shadow: none;
+}
+
+#hero-heading {
+  margin-bottom: 2.75rem;
+}
+
+#hero-heading .about-entity,
+#hero-heading .about-link {
+  letter-spacing: 0.01em;
+}
+
+#hero-heading h1,
+#hero-heading h2,
+#hero-heading h3 {
+  color: var(--ra-ink);
+}
+
+#hero-heading h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.05;
+  margin-bottom: 1.15rem;
+}
+
+#hero-heading p {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: var(--ra-muted);
+}
+
+.hero-copy {
+  padding-top: 0.4rem;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.research-grid,
+.highlight-grid,
+.achievement-grid,
+.feature-grid {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.research-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.highlight-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.achievement-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.feature-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.research-card,
+.highlight-card,
+.achievement-card,
+.feature-item {
+  background: var(--ra-card);
+  border: 1px solid var(--ra-line);
+  border-radius: var(--ra-radius);
+  padding: 1.35rem;
+  height: 100%;
+  box-shadow: 0 4px 16px rgba(20, 30, 50, 0.03);
+}
+
+.research-card {
+  border-top: 3px solid var(--ra-accent);
+}
+
+.research-card h3,
+.feature-item strong,
+.achievement-card strong {
+  margin-top: 0;
+}
+
+.research-card p,
+.highlight-card p,
+.feature-item p,
+.achievement-card p {
+  color: var(--ra-muted);
+  line-height: 1.65;
+}
+
+.highlight-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.highlight-research {
+  border-top: 3px solid #2563eb;
+}
+
+.highlight-conference {
+  border-top: 3px solid #16a34a;
+}
+
+.highlight-upcoming {
+  border-top: 3px solid #7c3aed;
+}
+
+.achievement-card {
+  min-height: 120px;
+}
+
+.achievement-card:first-line,
+.feature-item:first-line {
+  font-weight: 700;
+}
+
+.timeline {
+  border-left: 2px solid var(--ra-line);
+  margin: 0.5rem 0 1rem 0.4rem;
+  padding-left: 1.25rem;
+}
+
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1rem;
+  padding: 0 0 1.25rem 0;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.37rem;
+  top: 0.35rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--ra-accent);
+}
+
+.timeline-year {
+  color: var(--ra-accent);
+  font-weight: 700;
+}
+
+.connect-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.3rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.connect-links a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 2.4rem;
+}
+
+section.level2:first-of-type h2 {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+  .highlight-grid,
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .achievement-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .research-grid,
+  .highlight-grid,
+  .achievement-grid,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+  
+  #hero-heading h2 {
+    font-size: 2rem;
+  }
 }

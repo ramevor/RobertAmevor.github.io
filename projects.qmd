@@ -1,35 +1,158 @@
 ---
 title: "Projects"
-subtitle: "Funded projects"
+subtitle: "Selected methodological and biomedical research"
 page-layout: full
-listing: 
-- id: projects
-  sort: "started desc"
-  type: table
-  fields: [image, title, author, subtitle, description, funding, started, ended]
-  grid-item-align: left
-  grid-columns: 3
-  image-height: 30px
-  field-display-names: 
-      title: "Title"
-      author: "Team"
-      subtitle: "Funder"
-      started: "Start"
-      ended: "End"
-      funding: "Funding"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-#    - projects/ 
-    - projects.yml 
 ---
 
+## Research Projects
 
-:::{#projects}
+My research combines statistical methodology with collaborative biomedical
+applications. I am particularly interested in developing methods for
+adaptive clinical trials, survival analysis, Bayesian inference, and
+statistical genomics.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+### Adaptive Weighting for TITE-CRM
+
+**Adaptive Clinical Trials · Phase I Oncology**
+
+Developing an adaptive weighting extension to the Time-to-Event Continual
+Reassessment Method (TITE-CRM) for Phase I oncology trials. The work focuses
+on improving dose-finding decisions when toxicity outcomes are delayed.
+
+**Status:** Manuscript under review at *Statistics in Medicine*.
+
+**Recent activity:** Poster presentation at JSM 2026; scheduled poster
+presentation at SIP 2026.
+
+[View project →](projects/adaptive-tite-crm.qmd)
+
 :::
 
+::: {.g-col-12 .g-col-md-6}
 
-<!--Include social share buttons-->
+### Parkinson's Disease Transcriptomics
 
-{{< include /files/includes/_socialshare.qmd >}}
+**Statistical Genomics · RNA-seq · Longitudinal Data**
+
+Investigating transcriptomic signatures associated with Parkinson's disease
+progression using RNA-seq data from the Parkinson's Progression Markers
+Initiative (PPMI).
+
+The project applies statistical genomics and survival-oriented methods to
+identify molecular markers associated with disease progression.
+
+**Status:** In progress.
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+### Breast Cancer Prognostic Modeling
+
+**Cancer Biostatistics · Survival Analysis**
+
+Integrative prognostic modeling using gene expression and clinical data to
+study breast cancer survival and identify factors associated with patient
+outcomes.
+
+**Status:** Preprint.
+
+[View publication →](https://doi.org/10.48550/arXiv.2508.16740)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+### KRAS Mutation and NSCLC Survival
+
+**Real-World Evidence · Survival Analysis**
+
+Investigating time-varying hazard patterns and co-mutation profiles of
+KRAS G12C and G12D in real-world non-small-cell lung cancer (NSCLC).
+
+**Status:** Preprint.
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+### Bayesian Surveillance of Cervical Dystonia
+
+**Bayesian Methods · Clinical Monitoring**
+
+Applying Bayesian hierarchical methods to the surveillance of cervical
+dystonia treatments.
+
+**Status:** Preprint.
+
+[View preprint →](https://arxiv.org/abs/2508.15762)
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+### Lung Cancer Mortality Forecasting
+
+**Time Series · Cancer Epidemiology**
+
+Evaluating time-series forecasting methods for predicting lung cancer
+mortality rates in the United States.
+
+**Status:** Preprint.
+
+[View preprint →](https://doi.org/10.48550/arXiv.2508.16052)
+
+:::
+
+:::
+
+## Current Research Themes
+
+::: {.columns}
+
+::: {.column width="25%"}
+
+### Adaptive Trials
+
+Statistical methodology for Phase I dose-finding and adaptive clinical
+trial design.
+
+:::
+
+::: {.column width="25%"}
+
+### Survival Analysis
+
+Methods for time-to-event outcomes, prognostic modeling, and disease
+progression.
+
+:::
+
+::: {.column width="25%"}
+
+### Statistical Genomics
+
+RNA-seq, transcriptomic signatures, and molecular biomarkers.
+
+:::
+
+::: {.column width="25%"}
+
+### Bayesian Methods
+
+Bayesian modeling for clinical, biomedical, and longitudinal data.
+
+:::
+
+:::
+
+## Research Collaboration
+
+I welcome collaborations involving statistical methodology, clinical trials,
+biomedical data analysis, cancer research, and statistical genomics.
+
+[Contact me →](contact.qmd)

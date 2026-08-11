@@ -1,1 +1,36 @@
-/.quarto/
+# macOS
+.DS_Store
+
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local data / temporary project files
+GDCdata/
+_freeze/
+*.tar.gz
+
+# Template / local installation artifacts
+INSTALL.txt
+MANIFEST.txt
+
+# Quarto cache
+.quarto/
+
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Temporary folders
+_freeze/
+GDCdata/
+*.tar.gz

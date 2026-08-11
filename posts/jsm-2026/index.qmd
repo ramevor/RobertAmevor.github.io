@@ -1,0 +1,68 @@
+---
+title: "Presented Research at JSM 2026"
+subtitle: "Adaptive Weighting for Time-to-Event Continual Reassessment Method"
+date: 2026-08-05
+categories:
+  - news
+  - conference
+  - presentation
+image: jsm-sign.jpg
+toc: false
+---
+
+# Joint Statistical Meetings 2026
+
+I had the opportunity to present my research at the **2026 Joint Statistical Meetings (JSM)** in Boston, Massachusetts.
+
+This conference brought together statisticians from academia, industry, and government to discuss recent advances in statistics and biostatistics.
+
+![](jsm-sign.jpg)
+
+## Poster Presentation
+
+I presented the poster
+
+> **Adaptive Weighting for Time-to-Event Continual Reassessment Method:
+> Improving Safety in Phase I Dose-Finding Trials**
+
+The work introduces an adaptive predictive weighting approach that reduces
+overdosing while maintaining accurate maximum tolerated dose (MTD)
+selection.
+
+### Key Findings
+
+- 40.6% reduction in overdosing
+- Maintained MTD selection accuracy
+- Drop-in replacement for the standard TITE-CRM
+- Applicable to Phase I oncology trials
+
+![](jsm-poster.jpg)
+
+Standing beside my poster during the JSM poster session.
+
+## Research Impact
+
+This work addresses one of the major challenges in Phase I oncology trials:
+delayed toxicity.
+
+Instead of relying on fixed linear follow-up weights, the proposed method
+uses adaptive predictive weights based on observed toxicity timing,
+improving patient safety while preserving trial efficiency.
+
+The manuscript is currently under review at
+*Statistics in Medicine*.
+
+## Related Research
+
+- [Adaptive TITE-CRM Project](/projects/adaptive-tite-crm.qmd)
+
+## Looking Ahead
+
+The same research will be presented at the
+
+**Statistics in Pharmaceuticals (SIP) 2026**
+
+conference later this month.
+
+I look forward to discussing the methodology with researchers working in
+adaptive clinical trial design and Bayesian biostatistics.

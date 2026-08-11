@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.22">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="author" content="Robert Amevor">
+<meta name="description" content="Robert Amevor — PhD Student in Biostatistics at the University of South Carolina">
 
-<title>Quarto Academic, PhD – Quarto Academic</title>
+<title>Robert Amevor, MS, GStat – Robert Amevor</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,21 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b4406b7675125bc2ba204020e191172.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4e4f6f13c60fd88d7a110a7c3d02718.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,45 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '', { 'anonymize_ip': true});
-</script>
 
 <!-- 
 Load Academicons v1: https://jpswalsh.github.io/academicons/
@@ -133,44 +88,16 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Quarto Academic, PhD – Quarto Academic">
-<meta property="og:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
-<meta property="og:site_name" content="Quarto Academic">
-<meta name="twitter:title" content="Quarto Academic, PhD – Quarto Academic">
-<meta name="twitter:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
+<link rel="stylesheet" href="custom.css">
+<meta property="og:title" content="Robert Amevor, MS, GStat – Robert Amevor">
+<meta property="og:description" content="Academic website of Robert Amevor, PhD student in Biostatistics at the University of South Carolina.">
+<meta property="og:image" content="https://ramevor.github.io/files/images/mypic.jpg">
+<meta property="og:site_name" content="Robert Amevor">
+<meta name="twitter:title" content="Robert Amevor, MS, GStat – Robert Amevor">
+<meta name="twitter:description" content="Academic website of Robert Amevor, PhD student in Biostatistics at the University of South Carolina.">
+<meta name="twitter:image" content="https://ramevor.github.io/files/images/mypic.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -182,7 +109,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Academic</span>
+    <span class="navbar-title">Robert Amevor</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -191,25 +118,10 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
- <span class="dropdown-text">News</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
@@ -217,15 +129,11 @@ window.Quarto = {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
     <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">List of Publications</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=paper">
- <span class="dropdown-text">Selected Papers</span></a>
+ <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Grants</span></a>
+ <span class="dropdown-text">Projects</span></a>
   </li>  
     </ul>
   </li>
@@ -233,38 +141,35 @@ window.Quarto = {
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Outreach</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">Group</span></a>
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
+    <a class="nav-link" href="./files/Robert_Amevor_CV.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/ramevor" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
+    <a class="nav-link" href="https://scholar.google.com/citations?user=bs2MgcwAAAAJ&amp;hl=en" target="_blank"> 
+<span class="menu-text">Google Scholar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Robert-Amevor" target="_blank"> 
+<span class="menu-text">ResearchGate</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/robert-amevor-msc-gstat-81556b1b7/" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -293,162 +198,235 @@ window.Quarto = {
 
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
-    <img src="files/images/placeholder4.JPG" class="about-image
-  rounded " style="width: 70%;">
+    <img src="files/images/mypic.jpg" class="about-image
+  rounded " style="width: 58%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto Academic, PhD</h1>
+<h1 class="title">Robert Amevor, MS, GStat</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
 </header>
     <div class="about-links">
-  <a href="https://www.github.com" class="about-link" rel="" target="_blank">
-    <i class="bi bi-sun"></i>
-     <span class="about-link-text">Lab</span>
-  </a>
-  <a href="https://baruch.cuny.edu" class="about-link" rel="" target="_blank">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Uprofile</span>
-  </a>
-  <a href="mailto:email@gmail.com" class="about-link" rel="" target="">
+  <a href="mailto:ramevor@email.sc.edu" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
-     <span class="about-link-text">E-mail</span>
+     <span class="about-link-text">Email</span>
   </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="_blank">
+  <a href="https://scholar.google.com/citations?user=bs2MgcwAAAAJ&amp;hl=en" class="about-link" rel="" target="_blank">
+    <i class="bi bi-person-badge"></i>
+     <span class="about-link-text">Google Scholar</span>
+  </a>
+  <a href="https://www.researchgate.net/profile/Robert-Amevor" class="about-link" rel="" target="_blank">
+    <i class="bi bi-journal-text"></i>
+     <span class="about-link-text">ResearchGate</span>
+  </a>
+  <a href="https://www.linkedin.com/in/robert-amevor-msc-gstat-81556b1b7/" class="about-link" rel="" target="_blank">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://www.youtube.com" class="about-link" rel="" target="_blank">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">YouTube</span>
-  </a>
-  <a href="https://orcid.org" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-orcid"></i> ORCID</span>
-  </a>
-  <a href="https://www.webofscience.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-clarivate"></i> Web of Science</span>
-  </a>
-  <a href="https://www.scopus.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-scopus"></i> Scopus</span>
-  </a>
-  <a href="https://scholar.google.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
+  <a href="https://github.com/ramevor" class="about-link" rel="" target="_blank">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
   </a>
 </div>
   </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I’m a <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academeic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a>.</p>
-<p>I’m a template that you can fork to build your own website with easy adaptation and deployment.</p>
-<ol type="1">
-<li><strong>Star</strong> this repository to bookmark it for future reference.<br>
-</li>
-<li><strong>Fork</strong> this repository and rename it to <code>YourGitHubUserName.github.io</code>.<br>
-</li>
-<li><strong>Update</strong> the <code>_quarto.yml</code> file to configure your site’s basic settings.<br>
-</li>
-<li><strong>Add or edit content</strong> in the following files and folders:
-<ul>
-<li><code>/posts/</code> – posts about publications, news, events<br>
-</li>
-<li><code>teaching.qmd</code> – teaching information<br>
-</li>
-<li><code>projects.yml</code> – research or other projects<br>
-</li>
-<li><code>people.qmd</code> and <code>/people/</code> – team or collaborators<br>
-</li>
-<li><code>/files/</code> - profiles, images, pdfs, and includes</li>
-</ul></li>
-<li><a href="https://quarto.org/docs/websites/"><strong>Render and preview</strong></a> your site locally.<br>
-</li>
-<li><a href="https://quarto.org/docs/publishing/github-pages.html"><strong>Publish</strong></a> your site using GitHub Pages.<br>
-</li>
-<li><strong>Refine and polish</strong> your content and design as needed.<br>
-</li>
-<li>✅ Enjoy your new website!</li>
-</ol>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<ul>
-<li>Researcher, Univerisity</li>
-</ul>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li>PhD, Univerisity</li>
-</ul>
+  <div class="about-contents"><div id="hero-heading" class="hero-copy">
+<section id="phd-student-in-biostatistics" class="level2">
+<h2 data-anchor-id="phd-student-in-biostatistics">PhD Student in Biostatistics</h2>
+<p>I am <strong>Robert Amevor</strong>, a PhD student in Biostatistics at the <strong>University of South Carolina’s Arnold School of Public Health</strong>.</p>
+<p>My research focuses on <strong>adaptive clinical trial design, Bayesian inference, survival analysis, Phase I dose-finding, and statistical genomics</strong>, with applications in <strong>cancer and neurodegenerative disease</strong>.</p>
+<p>I am particularly interested in developing statistical methods that improve the design, safety, and efficiency of clinical research while supporting reproducible and data-driven biomedical science.</p>
+<p><a href="./files/Robert_Amevor_CV.pdf" class="btn btn-primary me-2">View my CV →</a> <a href="./projects.html" class="btn btn-outline-primary">Explore my research →</a></p>
 </section>
 </div></div>
 </div>
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-<section id="recent-posts" class="level2">
-<h2 data-anchor-id="recent-posts">Recent Posts</h2>
-<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728964800000">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quarto Academic Website Examples and Tips
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 15, 2024
+<section id="research-focus" class="level2">
+<h2 data-anchor-id="research-focus">Research Focus</h2>
+<div class="research-grid">
+<section id="adaptive-clinical-trials" class="level3 research-card">
+<h3 data-anchor-id="adaptive-clinical-trials">Adaptive Clinical Trials</h3>
+<p>Developing statistical methodology for Phase I clinical trials, including adaptive extensions of the <strong>Time-to-Event Continual Reassessment Method (TITE-CRM)</strong>.</p>
+</section>
+<section id="statistical-genomics" class="level3 research-card">
+<h3 data-anchor-id="statistical-genomics">Statistical Genomics</h3>
+<p>Using RNA-seq and longitudinal biomedical data to identify molecular signatures associated with disease progression.</p>
+</section>
+<section id="cancer-biostatistics" class="level3 research-card">
+<h3 data-anchor-id="cancer-biostatistics">Cancer Biostatistics</h3>
+<p>Applying survival analysis, Bayesian methods, and predictive modeling to cancer outcomes and precision medicine.</p>
+</section>
+<section id="bayesian-methods" class="level3 research-card">
+<h3 data-anchor-id="bayesian-methods">Bayesian Methods</h3>
+<p>Developing and applying Bayesian approaches for clinical trials, biomedical research, and complex longitudinal data.</p>
+</section>
+</div>
+</section>
+<section id="current-highlights" class="level2">
+<h2 data-anchor-id="current-highlights">Current Highlights</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Adaptive Clinical Trial Research
 </div>
 </div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725336000000" data-listing-file-modified-sort="1739198683941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="./posts/event-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Event item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2024
+<div class="callout-body-container callout-body">
+<p>Developing an adaptive weighting extension to the <strong>Time-to-Event Continual Reassessment Method (TITE-CRM)</strong> for Phase I oncology trials. The manuscript is currently under review at <em>Statistics in Medicine</em>.</p>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1749249243868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="./posts/news-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-News item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 24, 2024
+<div class="callout-title-container flex-fill">
+SIP 2026
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Scheduled to present the same research at <strong>Statistics in Pharmaceuticals (SIP) 2026</strong> on August 19, 2026.</p>
 </div>
-</div></a>
+</div>
+</section>
+<section id="latest-news" class="level2">
+<h2 data-anchor-id="latest-news">Latest News</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Presented at JSM 2026
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
+<div class="callout-body-container callout-body">
+<p>I presented my research</p>
+<p><strong>Adaptive Weighting for the Time-to-Event Continual Reassessment Method</strong></p>
+<p>at the <strong>2026 Joint Statistical Meetings (JSM)</strong> in Boston.</p>
+<p>👉 <a href="./posts/jsm-2026/">Read the conference story →</a></p>
 </div>
-<p align="right">
-<a href="./posts.html">All Posts »</a>
-</p>
-
+</div>
+</section>
+<section id="selected-achievements" class="level2">
+<h2 data-anchor-id="selected-achievements">Selected Achievements</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="asa-gstat" class="level3">
+<h3 data-anchor-id="asa-gstat">ASA GStat</h3>
+<p>Graduate Statistician accreditation, American Statistical Association.</p>
+</section>
+<section id="asa-early-career-travel-award" class="level3">
+<h3 data-anchor-id="asa-early-career-travel-award">ASA Early Career Travel Award</h3>
+<p>Awarded for JSM 2026 participation.</p>
+</section>
+<section id="sip2026-travel-scholarship" class="level3">
+<h3 data-anchor-id="sip2026-travel-scholarship">SIP2026 Travel Scholarship</h3>
+<p>Travel support for Statistics in Pharmaceuticals 2026.</p>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="arnold-school-fellowship" class="level3">
+<h3 data-anchor-id="arnold-school-fellowship">Arnold School Fellowship</h3>
+<p>University of South Carolina.</p>
+</section>
+<section id="niss-writing-workshop" class="level3">
+<h3 data-anchor-id="niss-writing-workshop">NISS Writing Workshop</h3>
+<p>Selected participant and Certificate of Completion.</p>
+</section>
+<section id="jsm-2026" class="level3">
+<h3 data-anchor-id="jsm-2026">JSM 2026</h3>
+<p>Poster presentation and Continuing Education Course Monitor.</p>
+</section>
+</div>
+</div>
+</section>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<section id="phd-in-biostatistics" class="level3">
+<h3 data-anchor-id="phd-in-biostatistics">PhD in Biostatistics</h3>
+<p><strong>University of South Carolina</strong><br>
+2025–Present</p>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="msc-in-statistics" class="level3">
+<h3 data-anchor-id="msc-in-statistics">MSc in Statistics</h3>
+<p><strong>University of New Mexico</strong><br>
+2023–2025</p>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="bsc-in-statistics" class="level3">
+<h3 data-anchor-id="bsc-in-statistics">BSc in Statistics</h3>
+<p><strong>KNUST</strong><br>
+First Class Honours · 2018–2022</p>
+</section>
+</div>
+</div>
+</section>
+<section id="professional-experience" class="level2">
+<h2 data-anchor-id="professional-experience">Professional Experience</h2>
+<p>My professional experience spans <strong>adaptive clinical trial methodology, statistical consulting, collaborative biomedical research, university instruction, and mentoring</strong>. I enjoy working at the interface of statistics, medicine, and data science to develop practical quantitative solutions for clinical and biomedical research.</p>
+<p><a href="./teaching.html">View my teaching experience →</a></p>
+</section>
+<section id="featured-work" class="level2">
+<h2 data-anchor-id="featured-work">Featured Work</h2>
+<div class="columns">
+<div class="column" style="width:25%;">
+<section id="research" class="level3">
+<h3 data-anchor-id="research">Research</h3>
+<p>Methodological and applied research in adaptive clinical trials, Bayesian statistics, survival analysis, and statistical genomics.</p>
+<p><a href="./research.qmd">Explore research →</a></p>
+</section>
+</div><div class="column" style="width:25%;">
+<section id="publications" class="level3">
+<h3 data-anchor-id="publications">Publications</h3>
+<p>Peer-reviewed papers, manuscripts under review, preprints, and conference proceedings.</p>
+<p><a href="./publications.html">View publications →</a></p>
+</section>
+</div><div class="column" style="width:25%;">
+<section id="projects" class="level3">
+<h3 data-anchor-id="projects">Projects</h3>
+<p>Selected biomedical and statistical projects spanning oncology, genomics, survival analysis, and clinical trials.</p>
+<p><a href="./projects.html">View projects →</a></p>
+</section>
+</div><div class="column" style="width:25%;">
+<section id="professional-service" class="level3">
+<h3 data-anchor-id="professional-service">Professional Service</h3>
+<p>Scientific reviewing, conference service, mentoring, outreach, and professional leadership.</p>
+<p><a href="./outreach.qmd">View service →</a></p>
+</section>
+</div>
+</div>
+</section>
+<section id="connect" class="level2">
+<h2 data-anchor-id="connect">Connect</h2>
+<p>I welcome opportunities for <strong>research collaboration, scientific exchange, mentoring, and professional engagement.</strong></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><strong>Email</strong></p>
+<p><script type="text/javascript">
+<!--
+h='&#x65;&#x6d;&#x61;&#x69;&#108;&#46;&#x73;&#x63;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#114;&#x61;&#x6d;&#x65;&#118;&#x6f;&#114;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x43;&#x6f;&#110;&#116;&#x61;&#x63;&#116;&#32;&#x6d;&#x65;&#32;&#8594;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Contact me → (ramevor at email dot sc dot edu)</noscript></p>
+</div><div class="column" style="width:20%;">
+<p><strong>Google Scholar</strong></p>
+<p><a href="https://scholar.google.com/citations?user=bs2MgcwAAAAJ&amp;hl=en">View profile →</a></p>
+</div><div class="column" style="width:20%;">
+<p><strong>ResearchGate</strong></p>
+<p><a href="https://www.researchgate.net/profile/Robert-Amevor">View profile →</a></p>
+</div><div class="column" style="width:20%;">
+<p><strong>LinkedIn</strong></p>
+<p><a href="https://www.linkedin.com/in/robert-amevor-msc-gstat-81556b1b7/">Connect →</a></p>
+</div><div class="column" style="width:20%;">
+<p><strong>GitHub</strong></p>
+<p><a href="https://github.com/ramevor">View code →</a></p>
+</div>
+</div>
 
 
 
@@ -520,7 +498,7 @@ Jun 24, 2024
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/ramevor\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -856,30 +834,29 @@ Jun 24, 2024
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Your Name</a> ©
+© Robert Amevor
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
-<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quart Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
+<p>Academic website of Robert Amevor</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
+    <a class="nav-link" href="https://github.com/ramevor" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
+    <a class="nav-link" href="https://scholar.google.com/citations?user=bs2MgcwAAAAJ&amp;hl=en" target="_blank">
+<p>Google Scholar</p>
 </a>
   </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
-      <i class="bi bi-rss" role="img">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Robert-Amevor" target="_blank">
+<p>ResearchGate</p>
+</a>
   </li>  
 </ul>
     </div>
