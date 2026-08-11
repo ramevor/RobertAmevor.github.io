@@ -1,75 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
+    <loc>https://ramevor.github.io/posts.html</loc>
     <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/publications.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/projects.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/index.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/index.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/teaching.html</loc>
-    <lastmod>2025-06-08T03:24:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/contact.html</loc>
-    <lastmod>2025-06-08T01:59:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/index.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/index.html</loc>
-    <lastmod>2026-08-11T05:37:37.251Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ramevor.github.io/index.html</loc>
-    <lastmod>2026-08-11T16:22:17.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ramevor.github.io/projects.html</loc>
-    <lastmod>2026-08-11T06:12:45.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ramevor.github.io/teaching.html</loc>
-    <lastmod>2026-08-11T15:59:43.231Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ramevor.github.io/projects/adaptive-tite-crm.html</loc>
-    <lastmod>2026-08-11T06:00:19.000Z</lastmod>
   </url>
   <url>
     <loc>https://ramevor.github.io/publications.html</loc>
     <lastmod>2026-08-11T06:21:18.220Z</lastmod>
   </url>
   <url>
-    <loc>https://ramevor.github.io/posts.html</loc>
-    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
+    <loc>https://ramevor.github.io/projects.html</loc>
+    <lastmod>2026-08-11T06:12:45.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ramevor.github.io/contact.html</loc>
+    <lastmod>2025-06-08T01:59:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ramevor.github.io/teaching.html</loc>
+    <lastmod>2026-08-11T15:59:43.231Z</lastmod>
   </url>
   <url>
     <loc>https://ramevor.github.io/posts/jsm-2026/index.html</loc>
     <lastmod>2026-08-11T15:12:13.855Z</lastmod>
   </url>
   <url>
-    <loc>https://ramevor.github.io/contact.html</loc>
-    <lastmod>2025-06-08T01:59:02.000Z</lastmod>
+    <loc>https://ramevor.github.io/projects/adaptive-tite-crm.html</loc>
+    <lastmod>2026-08-11T06:00:19.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ramevor.github.io/index.html</loc>
+    <lastmod>2026-08-11T16:22:17.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ramevor.github.io/people.html</loc>
+    <lastmod>2025-06-08T01:59:03.000Z</lastmod>
   </url>
 </urlset>

@@ -34,3 +34,4 @@ MANIFEST.txt
 _freeze/
 GDCdata/
 *.tar.gz
+/.quarto/
